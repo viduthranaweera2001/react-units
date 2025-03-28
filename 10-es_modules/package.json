@@ -1,0 +1,7 @@
+{
+  "name": "10-es_modules",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "type": "module"
+}

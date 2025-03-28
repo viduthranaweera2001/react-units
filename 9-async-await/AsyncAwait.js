@@ -44,7 +44,8 @@ function play() {
 
 async function doAll(){
     try{
-        await takeShower();
+        const result = await takeShower();
+        console.log(result);
         await doHomeWork();
         await play();
     }catch (error){
